@@ -1,54 +1,110 @@
-.content-card{
-    background-color: white;
-    /* height:25rem; */
-    width:25rem;
-    margin-bottom:2rem;
-    border-radius: 1.3rem;
-    padding: 1.1rem;
-    box-shadow: 2px 2px 13px 1px #00000030;
-    transition:all 300ms;
+.content-card {
+  background-color: white;
+  width: 25rem;
+  margin-bottom: 2rem;
+  border-radius: 1.3rem;
+  padding: 1.1rem;
+  box-shadow: 2px 2px 13px 1px #00000030;
+  transition: all 300ms;
 }
-.cards-container{
-    margin-top:2rem;
-   
+.cards-container {
+  margin-top: 2rem;
 }
-.content-card:hover{
-    transform: scale(1.04);
-    font-size:bolder;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+.content-card:hover {
+  transform: scale(1.02);
+  font-size: bolder;
+  cursor: pointer;
+  background-color: #e6e6e6;
+  box-shadow: 0 15px 30px 0 rgb(0 0 0 / 15%);
 }
-.d-flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.middle-container{
-    width:100%;
-    margin-top: 1.1rem;
-    margin-bottom: 1.1rem;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 0.9rem;
+.middle-container {
+  width: 100%;
+  margin-top: 1.1rem;
+  margin-bottom: 1.1rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 0.9rem;
 }
-.pdf-image{
-    height:5rem;
-    width:7rem;
+.pdf-image {
+  height: 5rem;
+  width: 7rem;
 }
-.name-box{
-    max-width: 60%;
+.name-box {
+  max-width: 60%;
 }
-.sub-heading{
-    margin-top:0.8rem;
+.sub-heading {
+  margin-top: 0.8rem;
 }
-.card-icons{
-    font-size:1.5rem;
-    cursor:pointer;
-    transition:all 300ms;
+.card-icons {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 300ms;
 }
-.card-icons:hover{
-    transform: scale(1.1);
-    color: #3f8887;
+.card-icons:hover {
+  transform: scale(1.1);
+  color: #3f8887;
 }
-.end-container{
-    width:100%;
+.end-container {
+  width: 100%;
 }
+.search-bar-panel {
+  float: right;
+  height: 29px;
+  background-color: white;
+  border-radius: 100px;
+  position: relative;
+  width: 25rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+  transition: all 300ms;
+}
+
+.search-bar-panel .search-button-image {
+  position: absolute;
+  top: 23%;
+  right: 5px;
+  transition: all 300ms;
+}
+
+.search {
+  float: left;
+  padding: 0.5rem;
+  margin: 5px 0 0 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #888;
+  height: 20px;
+  line-height: 18px;
+  background: transparent;
+  border: 0;
+  max-width: 125px;
+  outline: none;
+}
+.search-bar-panel:hover {
+  background-color: #c7f2ed;
+  cursor: pointer;
+}
+.search-button-image {
+  height: 1rem;
+  width: 1rem;
+}
+
+/* //Last day of assignment submission
+    .content-card{
+        background-color:#fbd8d8 ;
+    } */
+
+/* Assignment turned on time */
+/* .content-card{
+        background-color: #d3fedc;
+    } */
+
+/* Time limit exceeded for assignment submission */
+/* .content-card{
+        background-color: #E5E4E2;
+    } */

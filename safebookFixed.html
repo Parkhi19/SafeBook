@@ -742,7 +742,8 @@
         color: white;
         justify-content: center;
         align-items: center;
-        margin-top: 40px;
+        margin-top: 2.5rem;
+        width: 100% !important;
       }
 
       .upload:hover {
@@ -762,7 +763,7 @@
         width: 10vw;
         font-size: 1rem;
         padding: 0.5em 0.8em;
-        background: linear-gradient(316deg, #2a2323 60%, #50d8d7 130%);
+        background: #355958;
         color: white;
         border: none;
         outline: none;
@@ -779,7 +780,8 @@
       }
 
       .upload-button:hover {
-        background: #355958;
+        background: #223b3a;
+        transition: scale(1.3);
       }
 
       .upload-button:active {
@@ -941,14 +943,14 @@
 
           <button class="dropdown-btn">
             Assignments
-            <!-- <i class="fa fa-caret-down"></i> -->
+          
           </button>
           <div class="dropdown-container">
             <a id="btn-assignment" href="#">Assignment</a>
           </div>
           <button class="dropdown-btn">
             Tutorials
-            <!-- <i class="fa fa-caret-down"></i> -->
+         
           </button>
           <div class="dropdown-container">
             <a id="btn-assignment" href="#">Tutorial</a>
@@ -957,6 +959,11 @@
 
         <div class="panel">
           <!-- Placement Panel -->
+          <div class="search-bar-panel">
+            <input type="text" class="search" name="Search..."placeholder="Search....">
+            <input type="image" class="search-button-image" name="search" src="./images/searchBar.svg" alt="Search">
+          </div>
+          
           <div class="panel-item" id="panel-placement-quiz">
             <div class="upload">
               <p class="uploaded">PLACEMENT QUIZ</p>
@@ -996,66 +1003,6 @@
                   <i class="fa-sharp fa-solid fa-share-nodes icons card-icons"></i>
                 </div>
               </div>
-            </div>
-            <div class="content-card">
-              <div class="upper-container d-flex">
-                <div class="pdf-icon"></div>
-                <div class="name-box flex-f-col">
-                  <p class="file-name">Introduction to Machine Learning</p>
-                  <div class="flex-f-row">
-                    <i class="fa-solid fa-file"></i>
-                    <i class="file-size">159 Pages</i>
-                  </div>
-                  <div class="sub-heading ">
-                    <span class="naam">Subject : </span>
-                    <span class="sub-name">EMF Theory</span>
-                  </div>
-                 
-              </div>
-
-              <div class="middle-container d-flex">
-                <div class="last-mod"> Modified : Dec-23-2022</div>
-                <div class="vie">Views : 5</div>
-              </div>
-
-              <div class="end-container d-flex">
-                <i class="fa-solid fa-trash icons card-icons"></i>
-                <i class="fa-sharp fa-solid fa-pencil icons card-icons"></i>
-                <i class="fa-solid fa-user-shield icons card-icons"></i>
-                <i class="fa-solid fa-gears icons card-icons"></i>
-                <i class="fa-sharp fa-solid fa-rotate icons card-icons"></i>
-                <i class="fa-sharp fa-solid fa-share-nodes icons card-icons"></i>
-              </div>
-            </div>
-          </div>
-          <div class="content-card">
-            <div class="upper-container d-flex">
-              <div class="pdf-icon"></div>
-              <div class="name-box flex-f-col">
-                <p class="file-name">Introduction to Machine Learning</p>
-                <div class="flex-f-row">
-                  <i class="fa-solid fa-file"></i>
-                  <i class="file-size">159 Pages</i>
-                </div>
-                <div class="sub-heading ">
-                  <span class="naam">Subject : </span>
-                  <span class="sub-name">EMF Theory</span>
-                </div>
-               
-            </div>
-
-            <div class="middle-container d-flex">
-              <div class="last-mod"> Modified : Dec-23-2022</div>
-              <div class="vie">Views : 5</div>
-            </div>
-
-            <div class="end-container d-flex">
-              <i class="fa-solid fa-trash icons card-icons"></i>
-              <i class="fa-sharp fa-solid fa-pencil icons card-icons"></i>
-              <i class="fa-solid fa-user-shield icons card-icons"></i>
-              <i class="fa-solid fa-gears icons card-icons"></i>
-              <i class="fa-sharp fa-solid fa-rotate icons card-icons"></i>
-              <i class="fa-sharp fa-solid fa-share-nodes icons card-icons"></i>
             </div>
           </div>
         </div>
