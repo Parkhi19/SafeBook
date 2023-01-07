@@ -10,6 +10,12 @@
 }
 .cards-container {
   margin-top: 2rem;
+  overflow-y: scroll;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+.cards-container::-webkit-scrollbar{
+  display: none;
 }
 
 .content-card:hover {
