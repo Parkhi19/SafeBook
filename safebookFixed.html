@@ -619,7 +619,7 @@
     /* Style the side-bar Quizs and the dropdown button */
     .side-bar a,
     .side-bar h1,
-    .dropdown-btn,
+    .side-bar-item,
     .sidebar-btn {
       padding: 6px 8px 6px 16px;
       text-decoration: none;
@@ -645,7 +645,7 @@
 
     /* On mouse-over */
     .side-bar a:hover,
-    .dropdown-btn:hover,
+    .side-bar-item:hover,
     .sidebar-btn:hover {
       color: rgb(68, 148, 148);
     }
@@ -907,7 +907,7 @@
         <div class="side-bar" id="side-navigation">
           <h1>Dashboard</h1>
 
-          <button class="dropdown-btn">
+          <button class="dropdown-btn side-bar-item">
             Quiz
             <i class="fa fa-caret-down"></i>
           </button>
@@ -915,7 +915,7 @@
             <a id="btn-subjective-quiz" href="#">Subjective Quiz</a>
             <a id="btn-placement-quiz" href="#">Placement Quiz</a>
           </div>
-          <button class="dropdown-btn">
+          <button class="dropdown-btn side-bar-item">
             Book
             <i class="fa fa-caret-down"></i>
           </button>
@@ -924,19 +924,13 @@
             <a id="btn-your-collections" href="#">Your Collections</a>
           </div>
 
-          <button class="dropdown-btn">
+          <button class="side-bar-item" id="btn-assignment">
             Assignments
 
           </button>
-          <div class="dropdown-container">
-            <a id="btn-assignment" href="#">Assignment</a>
-          </div>
-          <button class="dropdown-btn">
+          <button class="side-bar-item">
             Tutorials
           </button>
-          <div class="dropdown-container">
-            <a id="btn-assignment" href="#">Tutorial</a>
-          </div>
         </div>
         <div id="side-navigation-arrow">
           <i class="fa-solid fa-angle-right icons" id="side-navigation-arrow "></i>
