@@ -13,6 +13,8 @@
   overflow-y: scroll;
   -ms-overflow-style: none; 
   scrollbar-width: none;
+  padding-top: 0.9rem;
+  padding-bottom: 0.4rem;
 }
 .cards-container::-webkit-scrollbar{
   display: none;
