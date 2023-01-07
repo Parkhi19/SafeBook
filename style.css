@@ -94,10 +94,16 @@
   height: 1rem;
   width: 1rem;
 }
-#side-navigation{
-  
+
+.side-navigation-arrow{
   display: none;
 }
+
+@media (max-width:950px) {
+  #side-navigation{
+  
+    display: none;
+  }
 .side-navigation-arrow{
   display: flex !important;
   justify-content: center;
@@ -124,6 +130,9 @@
   z-index: 10;
   display: flex;
 }
+}
+
+
 
 /* //Last day of assignment submission
     .content-card{
