@@ -8,6 +8,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+a, a:visited, a:hover, a:focus ,a:hover, a:active { text-decoration: none; }
 
 header {
   display: flex;
