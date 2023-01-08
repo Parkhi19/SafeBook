@@ -530,6 +530,7 @@ body {
 
 .upload-button:active {
   background: #355958;
+  transform: scale(0.95);
 }
 
 .heading-row {
